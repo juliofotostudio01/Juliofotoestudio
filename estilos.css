@@ -1,0 +1,1071 @@
+body {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+.whatsapp {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 30px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.whatsapp:hover {
+    transform: scale(1.05);
+}
+.logo {
+    width: 180px;
+    height: auto;
+    margin-top: 40px;
+}
+.servicios {
+    margin-top: 100px;
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+}
+
+.servicios h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.tarjeta {
+    background-color: #262626;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.tarjeta h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.tarjeta p {
+    font-size: 16px;
+    color: #cccccc;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+}
+.restauracion {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.restauracion h2 {
+    font-size: 36px;
+}
+
+.comparador {
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.comparador img {
+    width: 100%;
+    display: block;
+}
+
+.foto-despues {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: inset(0 50% 0 0);
+}
+
+#control {
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+}
+/* MENÚ SUPERIOR */
+.menu {
+    width: 100%;
+    background-color: #181818;
+    padding: 18px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ff1838;
+}
+.menu a:first-child {
+    color: #ff1838;
+    border-bottom: 3px solid #ff1838;
+    padding-bottom: 15px;
+}
+/* PORTADA PRINCIPAL */
+
+.inicio {
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:
+        radial-gradient(circle at center, #242424 0%, #111 55%, #080808 100%);
+    padding: 70px 20px;
+}
+
+.inicio-contenido {
+    max-width: 900px;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.inicio h1 {
+    font-size: 52px;
+    margin: 5px 0;
+    color: white;
+}
+
+.lema {
+    font-size: 20px;
+    color: #ddd;
+}
+
+.especialidades {
+    font-size: 19px;
+    color: white;
+    margin: 25px 0 35px;
+}
+
+.especialidades span {
+    color: #e51b23;
+    margin: 0 8px;
+}
+
+.whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.whatsapp:hover {
+    transform: scale(1.06);
+    background: #20bd5a;
+}
+/* CORRECCIÓN DE LA PORTADA */
+
+.inicio {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.inicio-contenido {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio .logo {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.inicio h1 {
+    margin: 10px 0 15px;
+    text-align: center;
+}
+
+.inicio .lema,
+.inicio .especialidades {
+    text-align: center;
+}
+/* ESTRUCTURA GENERAL DE LA PÁGINA */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block !important;
+    width: 100%;
+    background: #0d0d0d;
+    color: white;
+}
+
+.inicio,
+.servicios,
+.restauracion {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+/* PORTADA */
+.inicio {
+    min-height: 600px !important;
+    padding: 60px 20px !important;
+}
+
+/* SERVICIOS */
+.servicios {
+    padding: 70px 20px !important;
+    text-align: center;
+}
+
+/* ANTES Y DESPUÉS */
+.restauracion {
+    padding: 70px 20px !important;
+    text-align: center;
+}
+/* ESTRUCTURA GENERAL DE LA PÁGINA */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block !important;
+}
+/* CORRECCIÓN: SECCIONES UNA DEBAJO DE OTRA */
+
+.inicio,
+.servicios,
+.restauracion {
+    display: block !important;
+    width: 100% !important;
+    clear: both !important;
+}
+
+/* PORTADA HORIZONTAL */
+.inicio {
+    min-height: 650px !important;
+    padding: 70px 20px !important;
+    box-sizing: border-box;
+}
+
+/* SERVICIOS */
+.servicios {
+    padding: 70px 20px !important;
+    box-sizing: border-box;
+}
+
+/* ANTES Y DESPUÉS */
+.restauracion {
+    padding: 70px 20px !important;
+    box-sizing: border-box;
+}
+/* PORTADA PROFESIONAL HORIZONTAL */
+
+.inicio {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio-contenido {
+    width: 90%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    text-align: left;
+}
+
+.inicio .logo {
+    width: 330px;
+    max-width: 90%;
+    justify-self: center;
+}
+
+.inicio h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.inicio .lema {
+    font-size: 20px;
+}
+
+.inicio .especialidades {
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.inicio .whatsapp {
+    display: inline-block;
+}
+/* ===== ARREGLO DEFINITIVO DE SECCIONES ===== */
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+body {
+    display: block !important;
+}
+
+.inicio,
+.servicios,
+.restauracion {
+    position: relative !important;
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* PORTADA */
+.inicio {
+    min-height: 650px !important;
+}
+
+/* SERVICIOS */
+.servicios {
+    min-height: auto !important;
+    padding: 70px 20px !important;
+}
+
+/* RESTAURACIÓN */
+.restauracion {
+    min-height: auto !important;
+    padding: 70px 20px !important;
+}
+/* ===== PORTADA: AJUSTE FINAL ===== */
+
+.inicio-contenido {
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+
+    display: grid !important;
+    grid-template-columns: 45% 55% !important;
+    grid-template-areas:
+        "logo titulo"
+        "logo lema"
+        "logo especialidades"
+        "logo boton" !important;
+
+    align-items: center !important;
+    column-gap: 70px !important;
+}
+
+.inicio .logo {
+    grid-area: logo !important;
+    width: 350px !important;
+    max-width: 100% !important;
+    justify-self: center !important;
+}
+
+.inicio h1 {
+    grid-area: titulo !important;
+    font-size: 52px !important;
+    margin: 0 0 15px !important;
+}
+
+.inicio .lema {
+    grid-area: lema !important;
+    margin: 0 0 20px !important;
+}
+
+.inicio .especialidades {
+    grid-area: especialidades !important;
+    margin: 0 0 30px !important;
+}
+
+.inicio .whatsapp {
+    grid-area: boton !important;
+    width: fit-content !important;
+    padding: 15px 28px !important;
+    justify-self: start !important;
+}
+/* ===== TARJETAS DE SERVICIOS ===== */
+
+.tarjeta {
+    border: 1px solid #333;
+    border-radius: 15px;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+    border-color: #e31b23;
+    box-shadow: 0 10px 30px rgba(227, 27, 35, 0.20);
+}
+
+.servicios h2 {
+    font-size: 38px;
+    margin-bottom: 45px;
+}
+/* ===== NUESTROS TRABAJOS ===== */
+
+.trabajos {
+    background: #0d0d0d;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.trabajos h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.trabajos-texto {
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.galeria {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+/* ===== EFECTO GALERÍA ===== */
+
+.foto-trabajo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.foto-trabajo img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.nombre-trabajo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 25px 15px 15px;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.9)
+    );
+
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.foto-trabajo:hover img {
+    transform: scale(1.06);
+}
+
+.foto-trabajo:hover .nombre-trabajo {
+    opacity: 1;
+}
+/* ===== TABLET ===== */
+
+@media (max-width: 900px) {
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* ===== CELULAR ===== */
+
+@media (max-width: 600px) {
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .inicio-contenido {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 20px !important;
+    }
+
+    .inicio .logo {
+        width: 220px !important;
+    }
+
+    .inicio h1 {
+        font-size: 36px !important;
+    }
+
+    .inicio .whatsapp {
+        margin: 0 auto !important;
+    }
+
+}
+/* ===== CONTACTO ===== */
+
+.contacto {
+    background: #151515;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.contacto-texto {
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.contacto-info {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contacto-item {
+    background: #0d0d0d;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.contacto-item h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.contacto-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 12px 0;
+    transition: color 0.3s ease;
+}
+
+.contacto-link:hover {
+    color: #e31b23;
+}
+@media (max-width: 600px) {
+
+    .contacto-info {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto h2 {
+        font-size: 32px;
+    }
+
+}
+/* ===== CORRECCIÓN FINAL DEL MENÚ EN PC ===== */
+
+@media (min-width: 601px) {
+
+    .menu {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 50px !important;
+        padding: 15px 20px !important;
+        box-sizing: border-box !important;
+    }
+
+    .menu a {
+        width: auto !important;
+        display: inline-block !important;
+        padding: 10px 5px !important;
+        margin: 0 !important;
+    }
+
+}
+/* ===== NOMBRE SOBRE LAS FOTOS ===== */
+
+.foto-trabajo {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.nombre-trabajo {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+
+    padding: 18px 10px !important;
+    margin: 0 !important;
+
+    background: rgba(0, 0, 0, 0.75) !important;
+    color: white !important;
+
+    text-align: center !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+
+    opacity: 0 !important;
+    transition: opacity 0.3s ease !important;
+}
+
+.foto-trabajo:hover .nombre-trabajo {
+    opacity: 1 !important;
+}
+/* ===== FOOTER ===== */
+
+.footer {
+    background: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 25px;
+    border-top: 2px solid #e31b23;
+}
+
+.footer-logo {
+    width: 120px !important;
+    height: auto !important;
+    max-width: 120px !important;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.footer p {
+    margin: 8px 0;
+}
+
+.footer-redes {
+    line-height: 1.8;
+}
+
+.copyright {
+    margin-top: 20px !important;
+    color: #888;
+    font-size: 13px;
+}
+/* ===== NUEVA PORTADA FOTOGRÁFICA ===== */
+
+.inicio {
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.95) 0%,
+            rgba(0, 0, 0, 0.72) 45%,
+            rgba(0, 0, 0, 0.25) 100%
+        ),
+        url("Imagenes/portada.png") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+/* ===== AJUSTE PORTADA ESCRITORIO ===== */
+
+@media (min-width: 601px) {
+
+    .inicio {
+        min-height: 560px !important;
+        padding: 0 40px !important;
+    }
+
+    .inicio-contenido {
+        min-height: 560px !important;
+        max-width: 1100px !important;
+        grid-template-columns: 40% 60% !important;
+        column-gap: 50px !important;
+    }
+
+    .inicio .logo {
+        width: 280px !important;
+    }
+
+    .inicio h1 {
+        font-size: 46px !important;
+    }
+}
+/* ===== TITULO PORTADA ===== */
+
+.inicio h1 {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 52px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.inicio h1 .julio-rojo {
+    color: #e31b23 !important;
+}
+/* ===== TITULO JULIO FOTO ESTUDIO ===== */
+
+.inicio h1 {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 52px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.inicio h1 .julio-rojo {
+    color: #e31b23 !important;
+}
+/* ===== BOTÓN ROJO PORTADA ===== */
+
+.inicio a.whatsapp {
+    background-color: #e31b23 !important;
+    background: #e31b23 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.inicio a.whatsapp:hover {
+    background-color: #ff2630 !important;
+    background: #ff2630 !important;
+}
+/* ===== CENTRAR CONTENIDO DE LA PORTADA ===== */
+
+@media (min-width: 601px) {
+
+    .inicio-contenido {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 22px !important;
+        min-height: 560px !important;
+        max-width: 1000px !important;
+        margin: 0 auto !important;
+    }
+
+    .inicio h1,
+    .inicio .lema,
+    .inicio .especialidades,
+    .inicio .whatsapp {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .inicio .whatsapp {
+        align-self: center !important;
+    }
+}
+.fa-whatsapp {
+    color: #25D366;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.fa-instagram {
+    color: #E1306C;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.fa-location-dot {
+    color: #e31b23;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.fa-clock {
+    color: #e31b23;
+    font-size: 25px;
+    margin-right: 8px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.whatsapp-flotante {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 58px;
+    height: 58px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-decoration: none;
+    z-index: 1000;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+}
+
+.whatsapp-flotante:hover {
+    transform: scale(1.1);
+}
+.menu a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #e31b23;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.menu a:hover {
+    color: #e31b23;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+.tarjeta {
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+    border-color: #e31b23;
+    box-shadow: 0 12px 30px rgba(227, 27, 35, 0.20);
+}
+.foto-trabajo {
+    overflow: hidden;
+}
+
+.foto-trabajo img {
+    transition: transform 0.4s ease;
+}
+
+.foto-trabajo:hover img {
+    transform: scale(1.06);
+}
+.visor-imagen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    z-index: 5000;
+    justify-content: center;
+    align-items: center;
+}
+
+.visor-imagen img {
+    max-width: 90%;
+max-height: 92vh;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.cerrar-visor {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+}
+.visor-imagen {
+    border: none !important;
+    outline: none !important;
+}
+
+.visor-imagen img {
+    border: none !important;
+    outline: none !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+/* ===== POR QUÉ ELEGIRNOS ===== */
+
+.porque-elegirnos {
+    padding: 70px 20px;
+    text-align: center;
+    background: #111;
+}
+
+.porque-elegirnos h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.porque-elegirnos > p {
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+   .razones {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.razon {
+    background: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 30px 20px;
+    transition: 0.3s;
+}
+
+.razon:hover {
+    transform: translateY(-8px);
+    border-color: #e31b23;
+    box-shadow: 0 10px 30px rgba(227, 27, 35, 0.20);
+}
+
+.razon h3 {
+    margin-bottom: 15px;
+}
+
+.razon p {
+    color: #bbb;
+    line-height: 1.5;
+}
+@media (max-width: 600px) {
+    .razones {
+        grid-template-columns: 1fr;
+    }
+
+    .porque-elegirnos {
+        padding: 50px 20px;
+    }
+
+    .porque-elegirnos h2 {
+        font-size: 32px;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+.menu a.activo {
+    color: #e31b23 !important;
+}
+
+.menu a.activo::after {
+    width: 100%;
+}
+.whatsapp-flotante i {
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: -3px;
+}
+/* EFECTO BOTÓN WHATSAPP FLOTANTE */
+.whatsapp-flotante {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-flotante:hover {
+    transform: scale(1.12);
+    box-shadow: 0 0 20px rgba(37, 211, 102, 0.65);
+}
+.whatsapp-flotante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 90px;
+}
+@media (max-width: 600px) {
+    .menu {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 0 !important;
+        padding: 8px 10px !important;
+    }
+
+    .menu a {
+        width: auto !important;
+        text-align: center !important;
+        font-size: 13px !important;
+        padding: 10px 4px !important;
+    }
+}
+@media (max-width: 600px) {
+    .foto-trabajo {
+        margin-bottom: 12px !important;
+    }
+}
